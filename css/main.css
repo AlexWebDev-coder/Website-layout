@@ -1,0 +1,230 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 16px;
+  height: 100vh;
+  background-color: #000;
+}
+
+.container {
+  max-width: 1260px;
+  max-height: 70px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: "Inter" sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  text-align: right;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* light text */
+  color: #e4e5ea;
+}
+
+.title span {
+  font-family: "Montserrat" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  text-transform: lowercase;
+  color: #e4e5ea;
+}
+
+/* Header */
+
+.header {
+  padding: 46px 150px 0;
+}
+
+.header-nav {
+  height: auto;
+  display: flex;
+}
+
+.logo-text {
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  padding-top: 10px;
+}
+
+.nav {
+  width: 100%;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link {
+  color: #fff;
+}
+
+.nav-container-services {
+  display: flex;
+  column-gap: 30px;
+  margin-left: 53px;
+}
+.nav-container-socials {
+  display: flex;
+  column-gap: 34px;
+}
+.phone {
+  padding-right: 14.67px;
+}
+
+/* Main */
+
+.main {
+  padding: 90px 0;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-title h1 {
+  font-family: "Inter" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+
+  color: #e4e5ea;
+}
+
+.main-title span {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+
+  background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%), #e4e5ea;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.text-top {
+  font-family: "Inter" sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: right;
+}
+.text-top span {
+  background: linear-gradient(92deg, #fcb045 27.14%, #fd1d1d 121.36%), #e4e5ea;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-transform: uppercase;
+}
+
+/* Main info box, text middle */
+
+.text-middle {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+.btn-footer {
+  margin-top: 61px;
+  text-align: right;
+}
+
+.btn-get-advice {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  background: #4077f3;
+  /* light text */
+  padding: 21px 35px;
+  color: #e4e5ea;
+}
+
+/* Footer */
+.footer-title {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  /* dark gray */
+
+  color: #656566;
+}
+
+.footer {
+  /* margin-top: 124px; */
+  position: absolute;
+  bottom: 0;
+  height: 243px;
+  width: 100%;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content-menu {
+  display: flex;
+  flex: 1 1 auto;
+  margin: 0 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-title {
+  padding-bottom: 20px;
+}
+
+.footer-menu p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding-top: 10px;
+  /* light text */
+  color: #e4e5ea;
+}
+
+.contacts {
+  text-align: right;
+}
+.social-network {
+  display: flex;
+  gap: 14px;
+  justify-content: flex-end;
+  padding-top: 23px;
+}
+.address {
+  padding-top: 21px;
+}
+.politic {
+  padding-top: 35px;
+}
